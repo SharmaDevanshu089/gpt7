@@ -1,0 +1,11 @@
+Write a function double_if_even that:
+
+Takes ownership of an integer.
+
+Checks if it’s even:
+
+If even, return double the value.
+
+If odd, return it as-is.
+
+The original integer should not exist anymore in main after passing it to the function (ownership is moved).
