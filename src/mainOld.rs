@@ -1,11 +1,10 @@
 fn main() {
-    let _number: String = 6.to_string();
+    let _number = 6;
     print!("The Final number is {}", double_if_even(_number));
-    //print!("{}", _number); this wont work
+    print!("{}", _number);
 }
-fn double_if_even(number_string : String) -> i32{
+fn double_if_even(number : i32) -> i32{
     let new_number;
-    let number = number_string.parse().unwrap();
     if number %2 == 0{
         new_number= number*2;
     }
